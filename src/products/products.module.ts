@@ -7,7 +7,7 @@ import { ProductSchema } from './schemas/product.schema';
 @Module({
   imports: [
     MongooseModule.forRoot(
-      'mongodb+srv://frankdejesus27:frank2727FR@cluster0.l8nyxdt.mongodb.net/test',
+      'Aquí va la conexion a la base de datos, en este caso es MongoDB',
     ),
     MongooseModule.forFeature([{ name: 'product', schema: ProductSchema }]),
   ],
